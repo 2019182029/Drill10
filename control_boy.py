@@ -32,7 +32,7 @@ def reset_world():
     front_grass = Grass(400, 50)
     game_world.add_object(front_grass, 0)
 
-    boy = Boy()
+    boy = Boy(400, 70)
     game_world.add_object(boy, 1)
 
     back_grass = Grass()
